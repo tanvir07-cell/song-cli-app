@@ -1,0 +1,21 @@
+{
+  "name": "youtube-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "play": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tanvir Rifat <tr9836859@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "open": "^10.0.2",
+    "yargs": "^17.7.2"
+  }
+}
